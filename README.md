@@ -1,5 +1,6 @@
 # Debins
-a Simple One-Click .Deb Package Installer
+Basit Tek Tıklamayla .kur Paketi Yükleyici (Aylinux için)
+
 
 ### You can `install` a .deb file:
 ![Image](https://raw.githubusercontent.com/eminfedar/debins/dev-unstable/debins2.png)
@@ -10,14 +11,14 @@ a Simple One-Click .Deb Package Installer
 ### You can `upgrade` or `downgrade` a package from a .deb file:
 ![Image](https://raw.githubusercontent.com/eminfedar/debins/dev-unstable/debins3.png) ![Image](https://raw.githubusercontent.com/eminfedar/debins/dev-unstable/debins4.png)
 
-## Building:
+## Derleme:
 
-### Requirements:
+### Gerekler:
 
     Qt 5.9 (or >=)
-    QtCreator (optional, you can build it from qtcreator just by opening the project on it and building it)
+    QtCreator (isteğe bağlı olarak, projeyi açıp düzenleme yaparak yeniden qtcreator'da oluşturabilirsiniz.)
 
-### Building WITHOUT QtCreator:
+### QtCreator olmadan derlemek için:
 ```
 cd debins/ #path of the .pro file
 mkdir build
