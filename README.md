@@ -2,25 +2,26 @@
 Basit Tek Tıklamayla .kur Paketi Yükleyici (Aylinux için)
 
 
-### You can `install` a .deb file:
+### Aylinux .kur dosyasını sisteme kurma:
 ![Image](https://raw.githubusercontent.com/eminfedar/debins/dev-unstable/debins2.png)
 
-### You can `reinstall` or `remove` a package from a .deb file:
+### Aylinux .kur dosyasını sisteme yeniden kurma veya sistemden kaldırma:
 ![Image](https://raw.githubusercontent.com/eminfedar/debins/dev-unstable/debins1.png)
 
-### You can `upgrade` or `downgrade` a package from a .deb file:
+### Aylinux .kur dosyasını güncelleme veya sürüm düşürme:
 ![Image](https://raw.githubusercontent.com/eminfedar/debins/dev-unstable/debins3.png) ![Image](https://raw.githubusercontent.com/eminfedar/debins/dev-unstable/debins4.png)
 
 ## Derleme:
 
 ### Gerekler:
 
-    Qt 5.9 (or >=)
+    qt5-base 5.9 (veya >=)
+    qt5-graphicaleffects
     QtCreator (isteğe bağlı olarak, projeyi açıp düzenleme yaparak yeniden qtcreator'da oluşturabilirsiniz.)
 
 ### QtCreator olmadan derlemek için:
 ```
-cd debins/ #path of the .pro file
+cd pakur/ # .pro dosyasının yolu
 mkdir build
 cd build
 qmake ../
