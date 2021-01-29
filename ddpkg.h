@@ -58,9 +58,9 @@ private:
     bool _oldVersion = false;
     QString _output = "";
 
-    // If you use an another package system, just change the these two.
-    QString cmd_install = "pkexec /bin/sh -c \"dpkg --install '{DEBFILE}';apt-get -y install -f\"";
-    QString cmd_remove = "pkexec dpkg --purge {PACKAGE}";
+    // Başka bir paket sistemi kullanıyorsanız, sadece bu ikisini değiştirin.
+    QString cmd_install = "pkexec mps kur '{DEBFILE}'";
+    QString cmd_remove = "pkexec mps sil --ona {PACKAGE}";
 
     // Get the name of the package in the repository.
     QString cmd_getPackageName = "/bin/sh -c \"dpkg --info '{DEBFILE}' | grep ' Package:'\"";
