@@ -59,8 +59,8 @@ private:
     QString _output = "";
 
     // Başka bir paket sistemi kullanıyorsanız, sadece bu ikisini değiştirin.
-    QString cmd_install = "pkexec mps kur '{DEBFILE}'";
-    QString cmd_remove = "pkexec mps sil --ona {PACKAGE}";
+    QString cmd_install = "pkexec paketkur kur '{DEBFILE}'";
+    QString cmd_remove = "pkexec paketkur sil --ona {PACKAGE}";
 
     // Get the name of the package in the repository.
     QString cmd_getPackageName = "/bin/sh -c \"dpkg --info '{DEBFILE}' | grep ' Package:'\"";
