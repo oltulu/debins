@@ -3,7 +3,7 @@ Basit Tek Tıklamayla .kur Paketi Yükleyici (Aylinux için)
 
 
 ### Aylinux .kur dosyasını sisteme kurma:
-![Image](https://raw.githubusercontent.com/eminfedar/debins/dev-unstable/debins2.png)
+![Image](https://github.com/oltulu/debins/raw/master/paketkur.png)
 
 ### Aylinux .kur dosyasını sisteme yeniden kurma veya sistemden kaldırma:
 ![Image](https://raw.githubusercontent.com/eminfedar/debins/dev-unstable/debins1.png)
