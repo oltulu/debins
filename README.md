@@ -1,4 +1,4 @@
-# Debins
+# Pakur
 Basit Tek Tıklamayla .kur Paketi Yükleyici (Aylinux için)
 
 
