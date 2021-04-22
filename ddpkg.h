@@ -63,9 +63,9 @@ private:
     QString cmd_remove = "paket sil --ona {PACKAGE}";
 
     // Get the name of the package in the repository.
-    QString cmd_getPackageName = "/bin/sh -c \"dpkg --info '{DEBFILE}' | grep ' Package:'\"";
-    QString cmd_getPackageVersion = "/bin/sh -c \"dpkg --info '{DEBFILE}' | grep ' Version:'\"";
-    QString cmd_getPackageCurrentVersion = "/bin/sh -c \"dpkg -s {PACKAGE} | grep 'Version:'\"";
+    QString cmd_getPackageName = "/bin/sh -c \"paket bil '{DEBFILE}' | grep ' ADI:'\"";
+    QString cmd_getPackageVersion = "/bin/sh -c \"paket bil '{DEBFILE}' | grep ' SURUM:'\"";
+    QString cmd_getPackageCurrentVersion = "/bin/sh -c \"dpkg -s {PACKAGE} | grep 'SURUM:'\"";
 
     // Check if package exists command.
     QString cmd_checkIfPackageExists = "/bin/sh -c \"dpkg -l | grep 'ii  {PACKAGE}  '\"";
